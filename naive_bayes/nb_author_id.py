@@ -28,15 +28,7 @@ cl.fit(features_train, labels_train)
 print "training time:", round(time()-t0, 3), "s"
 
 t0 = time()
-cl.predict(features_test)
+print(cl.predict(features_test))
 print "predict time:", round(time()-t0, 3), "s"
 
 print("accuricy: ",cl.score(features_test, labels_test))
-
-#########################################################
-### your code goes here ###
-
-
-#########################################################
-
-
